@@ -25,9 +25,9 @@ const Homepage = (props: HomepageProps) => {
         <Text style={styles.buttonText}>Buka Flipbook (WebView)</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={handleFlipbookCarousel}>
+      {/* <TouchableOpacity style={styles.button} onPress={handleFlipbookCarousel}>
         <Text style={styles.buttonText}>Buka Flipbook (Carousel)</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </View>
   );
 };
